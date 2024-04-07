@@ -1,0 +1,17 @@
+/*Método Cascada*/
+.title {
+    color: aliceblue;
+    color: aqua;
+    color: brown;
+}
+
+h1 {
+    color: blue;
+}
+
+/*Valor de los Selectores según su Especificidad
+1 - Selectores de Etiqueta, Pseudoelementos (::)
+10 - Selectores de Clase, Pseudoclases (:), []
+100 - Selectores de ID 
+11 - Selectores Combinados
+*/
