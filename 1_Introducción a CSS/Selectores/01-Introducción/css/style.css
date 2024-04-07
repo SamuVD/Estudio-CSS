@@ -1,0 +1,29 @@
+/*
+    Los SELECTORES van a definir cuales elementos
+    van a ser modificados. Todos los elementos 
+    del Html que coincidan con el Selector se verán
+    afectados por los estilos del Selector
+*/ 
+
+/*
+    Para modificar varios selectores de Etiqueta en la misma línea
+    se coloca el selector y luego una coma (h2, p, img)
+*/
+
+/*Selector de Tipo, Nombre, o Etiqueta*/
+h2 {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+/*Selector de Clase (class)*/
+.titulo {
+    color: burlywood;
+    font-size: 30px;
+    border: 2px dotted black;
+}
+
+.negrita {
+    font-weight: bold;  /*Esta propiedad con este valor nos indica que al elemento se le pondrá la letra en negrita
+    */
+}
