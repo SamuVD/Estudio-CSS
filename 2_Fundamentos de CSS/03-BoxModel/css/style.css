@@ -1,0 +1,15 @@
+/* .caja {
+    background-color: yellow;
+    width: auto;
+    height: auto;
+    max-width: auto;
+    min-width: auto;
+    max-height: auto;
+    min-height: auto;
+    overflow: hidden; 
+} */
+/*La Propiedad (overflow) con el valor (hidden) me permite esconder todo lo que se desborde*/
+/*La Propiedad (max-width) nos permite definir un ancho máximo a un elemento*/
+/*La Propiedad (min-width) nos permite definir un ancho mínimo a un elemento*/
+/*La Propiedad (max-height) nos permite definir un alto máximo a un elemento*/
+/*La Propiedad (min-height) nos permite definir un alto mínimo a un elemento*/
