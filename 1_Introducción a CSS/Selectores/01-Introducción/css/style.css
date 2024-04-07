@@ -10,20 +10,43 @@
     se coloca el selector y luego una coma (h2, p, img)
 */
 
+/*Selector Universal (*)*/
+/* * {
+    color: burlywood;
+    font-size: medium;
+} */
+
 /*Selector de Tipo, Nombre, o Etiqueta*/
-h2 {
+/* h2 {
     color: cornflowerblue;
     font-size: 20px;
-}
+} */
 
 /*Selector de Clase (class)*/
-.titulo {
+/* .titulo {
     color: burlywood;
     font-size: 30px;
     border: 2px dotted black;
+} */
+
+/*Esta propiedad con este valor nos indica que al elemento se le pondrá la letra en negrita*/
+/* .negrita {
+    font-weight: bold;  
+} */
+
+/*Selector de Identificador Único (id)*/
+/* #titulo {
+    color: mediumaquamarine;
+    font-size: 15px;
+} */
+
+/*Selectores Combinadores*/
+/* .abuelo .titulo {
+    color: aquamarine;
+    font-size: 40px;
 }
 
-.negrita {
-    font-weight: bold;  /*Esta propiedad con este valor nos indica que al elemento se le pondrá la letra en negrita
-    */
-}
+.abuelo>.titulo {
+     color: blue;
+     font-size: 20px;
+} */
