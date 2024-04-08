@@ -1,0 +1,42 @@
+/*Propiedad box-sizing*/
+/*
+Define el comportamiento de las cajas.
+Por defecto el valor es content-box. Este no toma la propiedad width y height
+como tamaño final, sino como el tamaño de la capa del content
+a la cual se le suma el padding y el border.
+El otro valor es border-box. Y este si toma como tamaño final el width y height.
+Primero le da el tamaño al padding y al border, lo que sobre se lo da al content.
+*/
+/* .element {
+    box-sizing: content-box;
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border: 30px solid steelblue;
+    padding: 30px;
+    margin: 0 auto;
+} */
+
+/*Elementos en Línea y Bloque*/
+/*
+Los elementos en Bloque ocupan todo el espacio horizontalmente de su contenedor. 
+Los elementos en Línea ocupan solo el espacio de su contenido. No pueden aplicar
+las propiedades width y height. Pero si usamos un híbrido como inline-block
+nos permite seguir dejando los elementos en Línea, solo que ya podremos usar 
+todas las propiedades del Box Model.
+*/
+
+body {
+    font-size: 25px;
+}
+
+.block {
+    background-color: teal;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.inline {
+    background-color: crimson;
+    color: white;
+}
