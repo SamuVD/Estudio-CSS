@@ -1,3 +1,4 @@
+/*Propiedad de contenido (content)*/
 /* .caja {
     background-color: yellow;
     width: auto;
@@ -6,10 +7,84 @@
     min-width: auto;
     max-height: auto;
     min-height: auto;
-    overflow: hidden; 
+    overflow: hidden;
 } */
 /*La Propiedad (overflow) con el valor (hidden) me permite esconder todo lo que se desborde*/
 /*La Propiedad (max-width) nos permite definir un ancho máximo a un elemento*/
 /*La Propiedad (min-width) nos permite definir un ancho mínimo a un elemento*/
 /*La Propiedad (max-height) nos permite definir un alto máximo a un elemento*/
 /*La Propiedad (min-height) nos permite definir un alto mínimo a un elemento*/
+/*La capa Padding y Border son las únicas que modifican el tamaño del elemento*/
+
+/*Propiedad de Relleno (padding)*/
+/*
+El Padding nos ayuda a crear un espacio entre el borde del elemento y su contenido
+haciendo que no se junten
+*/
+/*
+El padding es un shorhand (encapsula varias propiedades en una sola) y
+su shorthand es (padding),
+eso se debe a que únicamente le estamos agregando un solo valor a la propiedad
+y este lo toma para las cuatro posiciones (top, right, bottom y left).
+Si pongo dos valores tomará el primero para top y right,
+y el segundo para bottom y left.
+Si pongo tres valores lo tomará para top, right y bottom. Al left le aplicará
+el valor que tenga el del sentido contrario, osea right.
+*/
+/* .caja {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+} */
+
+/*Propiedad de Borde (border)*/
+/*
+Permite definir la línea del borde agregando diferentes estilos para el borde.
+Modifica el ancho, el color y el tipo de borde.
+Características (el color, el estilo, y el ancho o el tamaño).
+El border también es un shorthand como padding, su shorthand es border.
+border-width también es un shorthand, es el shorthand del tamaño.
+border-style también es un shorthand.
+border-color también es un shorthand.
+*/
+/*
+Podemos usar (thin) para crear un borde muy fino
+(medium) para crear un borde más pesado
+o (thick) para crear un borde grueso
+Pero se acostumbra a usar unidades de medida (px)
+*/
+.caja {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-color: purple;
+    border-width: 20px;
+    border-style: solid;
+}
+
+/*Propiedad de Margen (margin)*/
+/*
+Es la capa externa del elemento.
+Nos permite establecer márgenes en las cuatro direcciones del elemento.
+No cambia su tamaño porque se encarga de crear márgenes entre elementos.
+El margin tiene un valor (auto), que pone un márgen automático
+únicamente horizontal.
+*/
+/*
+El margin también es un shorthand, de las cuatro propiedades
+(top, right, bottom y left).
+El colapso de márgenes solo sucede verticalmente, y es cuando dos márgenes
+se encuentran y se vuelven una sola.
+El colapso se soluciona poniendo una capa padding o border en el elemento Padre.
+*/
+.caja1 {
+    margin: 80px;
+}
